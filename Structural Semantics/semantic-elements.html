@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Fish and Fowl: The Amazing Animal Blog</title>
+	<style>
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+			margin: 0;
+			background-color: #339;
+		}
+		.container {
+			background-color: #dca; /* #ddddee */
+			max-width: 580px;
+			padding: 40px;
+			margin: 20px auto 20px auto;
+			margin: 20px auto;
+		}
+		h1 {
+			/* font-family: Arial, Helvetica, sans-serif; */
+			font-size: 35px;
+			color: #006b3a;
+		}
+		h2 {
+			/* font-family: Arial, Helvetica, sans-serif; */
+			font-size: 24px;
+			color: #8f6800;
+		}
+		p {
+			font-family: Verdana, sans-serif;
+			font-size: 14px;
+			line-height: 28px;
+		}
+		/* set img max width so it doesn't escape parent container */
+		img {
+			max-width: 100%;
+		}
+		/* add borders to each box */
+		header, nav, main, section, article {
+			border: 4px dashed beige;
+			margin-top: 10px;
+			padding: 10px;
+		}
+		header {
+			background-color: #8ea;
+		}
+		nav {
+			background-color: #ee9;
+			text-align: center;
+		}
+		nav ul { /* turn off bullet points on nav ul */
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		/* make nav items horiz */
+		nav li {
+			/* li default is display: block */
+			display: inline-block;
+			margin-right: 15px;
+		}
+
+		nav a {
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: 13px;
+			color: #252;
+		}
+
+		main {
+			background-color: #888;
+		}
+		section {
+			background-color: #dfe;
+		}
+		article {
+			background-color: #fff;
+		}
+	</style>
+
+</head>
+
+<body>
+	
+	<div class="container">
+
+		<header>
+			<h1>Fish and Fowl: The Amazing Animal Blog</h1>
+		</header>
+
+		<nav>
+			<ul>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Our Mission</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</nav>
+
+		<!-- emmet shortcut for above nav: nav>ul>li*3>a -->
+		<main>
+			<section>
+				<h2>Birds</h2>
+				<figure>
+					<img src="img/tawny-frogmouth.jpg" alt="Tawny Frogmouth Owl">
+					<figcaption>
+						The Tawny Frogmouth (Podargus strigoides) is a type of bird found throughout the Australian mainland, Tasmania and southern New Guinea. Often mistaken for owls, frogmouths are more closely related to nightjars and oilbirds. Source: <a href="http://en.wikipedia.org/wiki/Tawny_frogmouth">Wikipedia</a>
+					</figcaption>
+				</figure>
+				<article>
+					<h3>Have You Ever Met a Peacock?</h3>
+					<p>Peafowl are two Asiatic and one African species of flying bird in the genus Pavo of the pheasant family, Phasianidae, best known for the male's extravagant eye-spotted tail covert feathers, which it displays as part of courtship. The male is called a peacock, the female a peahen, and the offspring peachicks. Peafowl are forest birds that nest on the ground but roost in trees. They are terrestrial feeders.</p>
+					<p>Source: <a href="http://en.wikipedia.org/wiki/Peafowl">Wikipedia</a></p>
+				</article>
+				<article>
+					<h3>The Majestic Eagles Have Landed</h3>
+					<p>Eagles' eyes are extremely powerful, having up to 3.6 times human acuity for the martial eagle, which enables them to spot potential prey from a very long distance. This keen eyesight is primarily attributed to their extremely large pupils which ensure minimal diffraction (scattering) of the incoming light. The female of all known species of eagle is larger than the male.</p>
+					<p>Source: <a href="http://en.wikipedia.org/wiki/Eagle">Wikipedia</a></p>
+				</article>
+				<article>
+					<h3>Owls: Masters of the Night</h3>
+					<p>Owls are birds of prey known for their distinct facial disks, silent flight, and nocturnal habits. They possess exceptional hearing and night vision, allowing them to locate prey even in complete darkness. Unlike most birds, many owl species have forward-facing eyes that provide binocular vision and depth perception.</p>
+					<p>Source: <a href="http://en.wikipedia.org/wiki/Owl">Wikipedia</a></p>
+				</article>
+			</section>
+
+			<section>
+				<h2>Fish</h2>
+				<article>
+					<h2>Swimming with Sharks</h2>
+					<p>The whale shark holds many records for sheer size in the animal kingdom, most notably being by far the largest living nonmammalian vertebrate, rivaling many of the largest dinosaurs in weight. The whale shark is found in tropical and warm oceans and lives in the open sea, with a lifespan of about 70 years. Whale sharks have very large mouths, and as filter feeders, they feed mainly on plankton.</p>
+					<p>Source: <a href="http://en.wikipedia.org/wiki/Whale_shark">Wikipedia</a></p>
+				</article>
+				<article>
+					<h3>Clownfish: Colorful Coral Dwellers</h3>
+					<p>Clownfish, also known as anemonefish, are small marine fish that live in symbiotic relationships with sea anemones. They are native to warmer waters of the Indian and Pacific Oceans. These vibrant fish are known for their striking orange and white coloration and their unique immunity to anemone stings.</p>
+					<p>Source: <a href="http://en.wikipedia.org/wiki/Amphiprioninae">Wikipedia</a></p>
+				</article>
+				<article>
+					<h3>The Electric Eel's Shocking Power</h3>
+					<p>Despite its name, the electric eel is not a true eel but a knifefish. Native to the Amazon and Orinoco river basins, it is known for its ability to generate powerful electric shocks of up to 600 volts, which it uses for hunting and self-defense. It can grow up to 2.5 meters in length.</p>
+					<p>Source: <a href="http://en.wikipedia.org/wiki/Electric_eel">Wikipedia</a></p>
+				</article>
+			</section>
+
+			<section>
+				<h2>Mammals</h2>
+				<article>
+					<h3>The Mighty Elephant</h3>
+					<p>Elephants are the largest existing land animals, known for their intelligence, memory, and complex social structures. African and Asian elephants differ in size, ear shape, and habitat. Elephants use their trunks for breathing, smelling, touching, and grasping, and communicate through low-frequency sounds undetectable by humans.</p>
+					<p>Source: <a href="http://en.wikipedia.org/wiki/Elephant">Wikipedia</a></p>
+				</article>
+				<article>
+					<h3>Dolphins: The Ocean's Acrobats</h3>
+					<p>Dolphins are highly intelligent marine mammals known for their playful behavior and complex communication skills. They live in groups called pods and can be found in oceans around the world. Dolphins use echolocation to navigate and hunt, emitting sounds that bounce off objects to determine their location.</p>
+					<p>Source: <a href="http://en.wikipedia.org/wiki/Dolphin">Wikipedia</a></p>
+				</article>
+				<article>
+					<h3>Bats: The Only Flying Mammals</h3>
+					<p>Bats are the only mammals capable of sustained flight. They play important ecological roles, such as pollination and insect control. With over 1,400 species, bats range from the tiny bumblebee bat to the large flying foxes. Many species use echolocation to navigate and find food in the dark.</p>
+					<p>Source: <a href="http://en.wikipedia.org/wiki/Bat">Wikipedia</a></p>
+				</article>
+			</section>
+		</main>
+
+		<h2>More Posts</h2>
+		<h3>Archives</h3>
+		<ul>
+			<li>Mostly Mammals</li>
+			<li>Amphibians We Adore</li>
+			<li>Really Reptilian</li>
+			<li>Good Morning, Birdie</li>
+			<li>Feeling Fishy</li>
+		</ul>
+		<h3>On Our Radar</h3>
+		<ul>
+			<li>Animal Planet</li>
+			<li>National Geographic</li>
+		</ul>
+		<h3>A Word From Our Sponsors</h3>
+		<ul>
+			<li>PETA</li>
+			<li>ASPCA</li>
+		</ul>
+
+		<p>&copy; fish-and-fowl.org - all rights reserved - all wrongs reversed<br>
+		FishyBusiness&reg; is a Registered Trademark.</p>
+
+	</div><!-- close .container -->
+
+</body>
+</html>
